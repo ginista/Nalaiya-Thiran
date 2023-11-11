@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>User Registration</title>
+    <style>
+      td {
+        line-height: 2.1;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <form action="/login" method="post">
+        <br />
+        <br />
+        <h2>Assignment - 2</h2>
+        <table>
+          <tr>
+            <td>
+              <label for="uname"><b>Username:</b></label>
+            </td>
+            <td>
+              <input type="text" name="uname" id="uname" />
+            </td>
+          </tr>
+          <tr>
+              <td>
+                <label for="email"><b>Email:</b></label>
+              </td>
+              <td>
+                <input type="email" name="email" id="email" />
+              </td>
+          </tr>
+          <tr>
+              <td>
+                <label for="phone"><b>Phone number:</b></label>
+              </td>
+              <td>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" />
+              </td>
+              <td></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center>
+                  <br />
+                  <button type="submit">Submit</button>
+              </center>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>

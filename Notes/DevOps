@@ -1,0 +1,25 @@
+DevOps:
+> The Devops is a combination of two words, one is development and other is
+Operations.
+> It is a culture to promote the development and Operation process.
+> This allows a single team to handle the entire application lifecycle.
+from development to testing deployment and operations.
+> DevOps helps you to reduce the disconnection between
+software developers quality assurance (QA engineers) and system administrators
+> DevOps helps to increase organization speed to deliver applications and services.
+
+Advantages:
+1.Devops is an excellent approach for quick development and deployment of applications.
+2. It responds faster to the market changes to improve business growth .
+3. Devops escalate business profit by decreasing software delivery time and transportation costs.
+
+Disadvantages:
+1. Devops professionals or expert developers are less available.
+2. Developing with Devops is so expensive.
+
+To learn Devops, you should have basic knowledge of linux and atleast one scripting language.
+
+DevOps Tools:
+Puppet : puppet is an opensource configuration, server management and deployment tool used within devops.
+CHEF: The chef tools could transform infrastructure into code and is a powerful configuration management automation tool. It configures IT and system components like network, servers, applications ans storage.
+Nagios: It is a monitoring tool which helps to identify issues and resolve it before it effects their business processes.

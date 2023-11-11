@@ -1,0 +1,22 @@
+<html> 
+<body> 
+<img height="100%" width="100%" src="https://ashikap.s3.ap.cloud-object-storage.appdomain.cloud/hosas.jfif" alt="img loading !"> 
+
+ 
+ <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "f65ca051-0c28-4acd-a600-89a3aea857b2", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "feda7582-396c-499d-8c2b-2c657e1f08a9", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body> 
+</html> 
+ 

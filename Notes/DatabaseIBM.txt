@@ -1,0 +1,56 @@
+Day 5
+Database
+--------------------
+IBM DB2
+
+Data :
+1) Main purpose of database is to store and manage data.
+2) Manual Data and Automatic data.
+3) Data can be anything and everything.
+4) Every information or fact can be considered as data such as Name, DOb,
+Email, number, shopping, food,transactions.
+Data can be in the form of photos, videos, text.
+
+Database :
+We store data in the database.
+It is considered as a container filled with data or information which is electronically
+stored in a computer system. 
+> Data in any form can be stored into the database. It can be easily
+accessed, modified, protected and analysed.
+
+DBMS : Database Management System
+we need a software that software is called Database Management system.
+> It is a software which enables user/apps to access. Manipulate and report on data
+stored in Database.
+Eg : Mysql, postgresql,SQL server.
+
+Structural  Query Language - SQL
+
+DBMS = Database ? No
+Database is just a container that stores data.
+DBMS is a software to manage Database.
+
+___________________________
+Evolution of Database:
+
+Flat file Database
+Hierarchical Database
+Network Database
+
+After 2020
+Relational Database
+Non - relational Database
+
+Both Database are widely used.
+
+Relational Database : Oracle
+> Data is stored in the form of tables.
+> We can retrieve data from different tables.
+> Using dbms we can enter commands in specific language to retrive and modify data.
+Non relational
+
+> Key value store
+> Document database - mongo db and couch db
+> Graph Database - data is represented in nodes and relationships are represented as edges.
+> Wide colmn database - rows and colums but not tables they use structure called column families
+> Search engine database - quickly find data.

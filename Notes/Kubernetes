@@ -1,0 +1,51 @@
+Command for deployment:
+kubectl create -f <filename>
+kubectl apply -f <filename>
+
+    Commands for Kubernetes operations
+    
+    Get the list of nodes
+    kubectl get nodes
+    Get the list of pods
+    kubectl get pods -o wide
+    kubectl describe pod <pod_name>
+    kubectl get all
+To delete the services
+kubectl delete service <service_name>
+
+    Get running logs from the container in side
+the pod object  kubectl logs -f <pod_name>
+    kubectl logs -f <pod_name> -c <container_name>
+
+        CRUD Commands
+        Create deployment kubectl create deployment(name)
+        Edit deployment kubectl edit deployment(name)
+        Delete deployment kubectl delete deployment(name)
+
+        Status of different K8s components
+        kubectl get nodes | pod | services | replicaset | deployment
+
+        Debugging pods
+        log to console kubectl logs [pod name]
+
+
+        ***deployment
+        Commands:
+        kubectl - Gives the information on kubectl
+        kubectl get nodes - gets the information of available nodes
+        kubectl get pod - gets the information of pods
+        kubectl get services - gets the cluster ip and port information
+        kubectl get deployment - gives deployed info
+        kubectl get replicaset - displays the replica set 
+        kubectl create deployment appname - creates application
+        (kubectl create deployment nginx-depl --image=nginx)
+        kubectl edit deployment ngnix -edits the yaml file
+        kubectl logs application pod name - gives the logs of that application
+
+        Deploying job 
+        > kubectl create -f deployment.yaml
+        > kubectl apply -f service.yaml
+        > kubectl proxy
+
+        Install plugin for kubernetes service
+        # ibmcloud plugin install kubernetes service

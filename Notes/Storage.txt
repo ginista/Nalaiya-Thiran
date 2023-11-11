@@ -1,0 +1,56 @@
+Storage : 
+
+File storage:
+1) The storage which stores all your local files inside your computer.
+2) It follows Heirarchical model.
+	which is nothing but files inside folders and inside folders
+3) Path which our file is saved is the location.
+4) To share the files from one machine to other we have NAS(Network Area Storage)
+NAS :It provide a medium to share the data through shared folder which are connected in same network.
+
+Block storage  : 
+It is the most advanced storage.
+1. It has lowest latency possible.
+2. When ever a file need to stored it break down the file into small blocks or chunks.
+3. Block storage adds a middle layer.
+SAN - Server Area Network
+	SAN is nothing but a OS which could be any type
+like windows, linux or MAC
+-->when ever user tries to store or retrieve file it goes through SAN.
+--> SAN break down the file to equal blocks and it doesn't
+store it at one place. It randomly distributes the blocks as per the availability of volumes (Hard disk).
+4. Mostly used in Databases and virtual machines.
+
+Object storage : To perform analytics we need object storage.
+
+1) It follows Flat structure.
+2) It doesn't randomly distribute the data. It stores the 
+data in flat line structure  names repositories.
+3) It contains Meta data like File created by Date, time, etc
+
+IBM object storage :Create policy public
+To access:https://s3.jp-tok.cloud-object-storage.appdomain.cloud/bub/DockerCommands.txt
+								bucketname/filename
+cloud object storage:
+select lite plan
+create
+Bucket name should be unique
+create bucket
+upload the files
+To connect Aspira
+click on upload and select aspira(fastest file transfer)
+Install extension and install connect
+Now file transfer will increase to X60 times
+Convert file to public access.
+Go to permissions
+Go to public access.
+select object reader
+Go to configuration
+scroll down to find end points
+In public copy the endpoint link and add https://
+add the bucket name and filename to link
+or
+In bucket select the file
+In object details u will find the publc url.
+__________________________________
+																		

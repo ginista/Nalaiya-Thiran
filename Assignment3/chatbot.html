@@ -1,0 +1,21 @@
+<html> 
+<body> 
+<img height="100%" width="100%" src="https://ginista249.s3.jp-tok.cloud-object-storage.appdomain.cloud/Hosp.webp" alt="img loading !"> 
+<script> 
+ 
+ window.watsonAssistantChatOptions = {
+    integrationID: "5c80ccec-c920-4cb6-b64b-c4cc6494b793", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "bf77dd42-71e1-4bfb-a269-3883fb899c97", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body> 
+</html> 
+ 

@@ -1,0 +1,17 @@
+IBM container registry:
+
+Create container registry
+
+> Install IBM cloud cli
+> open cmd
+> ibmcloud plugin install container-registry
+> ibmcloud login -a https://cloud.ibm.com
+- login to cloud with ibm credentials
+
+> ibmcloud cr region-set ap-south
+
+> ibmcloud cr namespace-add <my_namespace>
+
+>docker tag <local_image> au.icr.io/<my_namespace>/<my_repo>
+
+> docker push au.icr.io/cadtest/test

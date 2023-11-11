@@ -1,0 +1,14 @@
+step 1 : ibmcloud login
+Email:
+Password:
+Step 2 : ibmcloud plugin install container-registry
+step 3 : Add a namespace
+> ibmcloud cr namespace-add ginista
+
+> ibmcloud cr login
+> docker images
+> docker tag jobportal us.icr.io/ginista/[reponame]:jobportal
+> docker images
+docker tag <local_image> icr.io/<my_namespace>/<my_repo>
+docker tag jobportal icr.io/ginista/
+> docker push icr.io/ginista/jobapp

@@ -1,0 +1,21 @@
+Docker commands
+--------------------
+docker images//list out images 
+
+docker rmi -f [imageid]// To remove a particular image (remove file)
+
+docker ps// To check the process state
+
+docker build -t [appname] .//build the image in docker
+
+docker run -p 5000:5000 appname//to run the image in container two port one is for container one is for local host
+Till now it is called image after running it is called container
+
+docker stop container id 
+
+docker login
+
+docker tag [local-image] [repository]
+docker push [repository]
+//Install IBM cloud CLI
+
